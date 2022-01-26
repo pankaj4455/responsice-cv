@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:   Georgia, serif;
+    font-size: 20px;
+}
+
+
+.div_1{
+    width: 30%;
+    float:left;
+    
+    background-color: darkgray;
+}
+.div_1 #pic{
+    width: 200px;
+    height: 200px;
+  
+    border-radius: 50%;
+}
+
+.div_2{
+    width: 70%;
+    float: left;
+    background-color:white;
+
+}
+.footer_f1{
+
+    background-color: gray;
+}
+@media (max-width:500px){
+    .div_1{
+        width: 100%;
+    }
+
+    .div_2{
+        width: 100%;
+    }
+}
+
+    
+    
+    
